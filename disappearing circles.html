@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>java script</title>
+</head>
+<style>
+.circle{
+height:130px;
+width:130px;
+border-radius:50%;
+margin-right:20px;
+float:left;
+}
+#red_cir{
+background-color:red;
+}
+#green_cir{
+background-color:green;
+}
+#yellow_cir{
+background-color:yellow;
+}
+</style>
+<body>
+
+<div class="circle" id="red_cir"></div>
+<div class="circle" id="green_cir"></div>
+<div class="circle" id="yellow_cir"></div>
+<script>
+document.getElementById("red_cir").onclick = function()
+{
+document.getElementById("red_cir").style.display="none";
+}
+document.getElementById("green_cir").onclick = function()
+{
+document.getElementById("green_cir").style.display="none";
+}
+document.getElementById("yellow_cir").onclick = function()
+{
+document.getElementById("yellow_cir").style.display="none";
+}
+</script>
+
+
+</body>
+</html>
